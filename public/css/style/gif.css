@@ -1,0 +1,61 @@
+/*  */
+
+body{
+	//background: linear-gradient(90deg, rgba(30,36,0,1) 0%, rgba(112,121,9,0.8673844537815126) 35%, rgba(0,255,91,1) 100%);
+	
+}
+
+		.container{
+		 padding:0px !important;
+
+				}
+
+			.col-xs-12, .col-sm-12, .col-md-12{
+			padding:0px !important;
+		    }
+
+	.profile{
+		max-height: 33vh;
+	}
+	
+	
+	.pfondo{
+		
+		//background: linear-gradient(90deg, rgba(12,20,88,1) 0%, rgba(23,30,110,1) 100%);
+		background: url(/img/gift.jpg);
+	  //background-color: #0E0C3F;
+	  color: #fff000;
+	  
+	  -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   -o-background-size: cover;
+	   background-size: cover;
+	   height: 33vh;
+	   width: 100% ;
+	   text-align: left;
+	   background-position: bottom;
+	}
+	.sfondo{
+		
+		// background: url(/img/background/basica/1.jpeg);
+	 background: linear-gradient(145deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(32,32,167,1) 100%);
+
+		 -webkit-background-size: cover;
+		   -moz-background-size: cover;
+		   -o-background-size: cover;
+		   background-size: cover;
+		   min-height: 67vh;
+		   width: 100% ;
+		   text-align: left;
+		   padding:20px;
+		}
+
+.bloque-a{
+	color:white;
+	
+}
+
+.amount{
+	text-align:right;
+	font-size: xxx-large;
+}

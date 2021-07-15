@@ -1,0 +1,66 @@
+body{
+	margin:0px !important;
+}
+.container-fluid{
+padding:0px !important;	
+}
+
+.item{
+	text-align:center;
+	border:2px solid white;
+    margin: 10px !important;
+	position:relative;
+
+}
+
+.img-fluid {
+
+    margin: 10px;
+	border-radius: 100%;
+
+}
+.title {
+
+    padding: 5%;
+	text-transform:Capitalize;
+
+}
+
+.precio{
+	font-size: 6vw;
+}
+
+.bg { 
+
+  min-height: 500px;
+  padding:5px;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:url('/storage/uploads/menu.jpg');"
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .bg {
+    background-attachment: scroll;
+  }
+}
+
+
+.product-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity .8s ease, border .4s ease;
+    text-align: center;
+    color: #fff;
+}
+
+.item:hover .product-overlay {
+    opacity: 1;
+    border-radius: 3px;
+}

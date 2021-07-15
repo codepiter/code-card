@@ -1,0 +1,186 @@
+	html, body, div, span, applet, object,
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite,
+code, del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody,
+tfoot, thead, tr, th, td, article, aside,
+canvas, details, embed, figure, figcaption,
+footer, header, hgroup, menu, nav, output, ruby,
+section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+	
+	h3{
+	font-size: 2rem;
+	padding: 2% 15%;
+	}
+	
+	h1{
+	font-size: 2.4rem;
+	}
+	
+	h4{
+	font-size: 1.8rem;
+	}
+	
+	p{
+		font-size: x-large;
+	}
+	
+	strong{
+		font-weight: 700;
+	}
+	
+	html{
+		width: fit-content;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	hr{
+		border-width: 0px;
+		height: 30px;
+		color: red;
+		background: #0c71c3;
+		margin: -4px 0px 0px 0px;
+	}
+	
+	.bloque-a{
+		background-color: aliceblue;
+	}
+	
+
+    .bloque-b{
+		
+	  text-align: center;
+	  background: #f5cc00;
+	  max-width: 1400px;
+     
+	  margin-left: auto;
+      margin-right: auto;
+	}
+	
+	.img_emp{
+		padding-top:15px;
+	}
+	.bloque-c{
+		
+		text-align: center;
+		background: #0c71c3;
+		color: white;
+		padding: 2% 15%;
+		
+	    max-width: 1400px;
+	    margin-left: auto;
+	    margin-right: auto;
+		
+	}
+	
+		.black{
+		color:black;
+		font-size: inherit;
+		margin-top: 15px;
+	}
+	
+.femition{}
+.emition{
+	margin-top: 11px;
+}
+.validh{
+	margin-top: 11px;
+}
+.valido{
+	margin-top: 11px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	.img{
+	  /*width: 100%;
+      height: 1600px;*/
+	  max-width: 1400px;
+      height: 1600px;
+	  margin-left: auto;
+      margin-right: auto;
+	  
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center top;  
+}
+	
+	/*Empezando con los media query la expresion de abajo lo q dice es q menor a 1024px adoptara lo que se le indica*/
+			@media (max-width: 1200px) {
+.img {
+    height: 1400px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;  
+	}
+}
+
+	@media (max-width: 1024px) {
+.img {
+    height: 1200px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;  
+	}
+}
+
+		@media (max-width: 870px) {
+.img {
+    height: 1000px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;  
+	}
+}
+	
+	@media (max-width: 723px) {
+.img {
+    height: 850px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;  
+	}
+}
+
+	@media (max-width: 649px) {
+.img {
+    height: 790px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;  
+	}
+}
+	
+	
+	@media (max-width: 480px) {
+.img {
+    height: 380px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;  
+	}
+}
+	

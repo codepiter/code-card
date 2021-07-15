@@ -1,0 +1,349 @@
+/*  */
+	.pfondo{
+	  background-color: #218DC1;
+	  color: black;
+	  
+	  -webkit-background-size: cover;
+	   -moz-background-size: cover;
+	   -o-background-size: cover;
+	   background-size: cover;
+	   height: 100%;
+	   width: 100% ;
+	   text-align: center;
+	}
+
+		.sfondo{
+		 background: url(/img/background/basica/6.jpeg);
+		 color: #dae0e5;
+		 
+		 -webkit-background-size: cover;
+		   -moz-background-size: cover;
+		   -o-background-size: cover;
+		   background-size: cover;
+		   height: 100%;
+		   width: 100% ;
+		   text-align: center;
+		   margin-top: -16px;
+		}
+	
+			.g2{
+			padding-top: 35px;
+		}
+	
+		.msg-btn, .follow-btn{
+			
+			border: 1px solid #218DC1;
+		  background: #00aef3;
+		  padding: 10px 25px;
+		  color: #ffffff;
+		  font-family: Montserrat, sans-serif;
+		  cursor: pointer;
+		  border-radius: 55px;
+		}
+		.follow-btn{
+		  margin-left: 10px;
+		  background: transparent;
+		  color: #02899c;
+		}
+		.follow-btn:hover{
+		  color: #231e39;
+		  background: #03bfbc;
+		  transition: .5s;
+		}
+		
+		.bg{
+		  text-shadow: 2px 1px 1px #000;
+		  background: #000000a8;
+		}
+		
+		.container i:hover{
+		  color: #03bfbc;
+		}
+	
+		.profile-name{
+		  font-size: 26px;
+		  font-weight: bold;
+		margin-top: 35px;
+		  color: beige;
+		}
+
+		.profile-company{
+		  font-weight: bold;
+		  font-size: 21px;
+		  color: beige;
+		}
+
+		.profile-position{
+		  font-size: 18px;
+		  padding-bottom: 9px;
+		  color: beige;
+		  padding-bottom: 35px;
+		}
+		
+		.contactame{
+		  font-size: 26px;
+		  font-weight: bold;
+		margin-bottom: 35px;
+		  color: #dae0e5;
+		}
+		
+		.info a{
+			color: #dae0e5;
+		}
+	
+		.misserv{
+		font-size: 25px;
+		margin-top: 35px;
+		margin-bottom: 35px;
+		color: #dae0e5;
+		text-transform: uppercase;
+		}
+			
+		.recom{
+		font-size: 25px;
+		margin-top: 35px;
+		color: #dae0e5;
+		padding-bottom: 35px;
+		}
+	
+		.sigueme{
+		margin-bottom: 35px;
+		font-size: 25px;
+		margin-top: 45px;
+		color: #dae0e5;
+		}
+		
+		.presentation{
+		color: #fff000;
+		}
+		.datos{
+			font-size: 25px;
+			margin-top: 35px;
+			padding-bottom: 35px;
+			color: #dae0e5;
+		}
+		.st{
+		font-size: 15px;
+		padding-bottom: 15px;
+		color: white;
+		border: 1px solid #93e2d6;
+		}
+		
+		.msg-btnduo{
+		  border: 1px solid #93e2d6;
+		  background: #0E0C3F;
+		  padding: 10px 25px;
+		  color: #ffffff;
+		  font-family: Montserrat, sans-serif;
+		  cursor: pointer;
+		  border-radius: 55px;
+		}
+		/*Hasta aqui los estilos que contienen color y fondo*/
+
+		
+																				.container{
+																				padding:0px !important;
+																				}
+
+																				.col-xs-12, .col-sm-12, .col-md-12{
+																					padding:0px !important;
+																				}
+
+																					.container i{
+																					  padding-left: 20px;
+																					  font-size: 20px;
+																					  margin-bottom: 20px;
+																					  cursor: pointer;
+																					  transition: .5s;
+																					}
+																				
+
+																				.profile{
+																				  width: 100%;
+																				  //border: 5px solid #BC0000;
+																				  padding: 3px;
+																				}
+
+																				.logo{
+																				  width: 98%;
+																				  height: 200px;
+																				  margin-top: 35px;
+																				   margin-bottom: 35px;
+																				}
+																				
+																				.parrpi{
+	padding-left: 3em;
+    margin-right: 3em;
+}
+																				
+																				.persinf{
+																				  font-size: 18px;
+																				  margin-top: 35px;
+																				  margin-left: 55px;
+																				  margin-right: 55px;
+																				  line-height: 21px;
+																				  padding-bottom: 35px;
+																				}
+
+																				.serv{
+																				 font-size: 18px;
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    line-height: 21px;
+
+    text-align: justify;
+																				}
+																				
+																				.instr{
+																				font-size: 18px;
+																				margin-left: 55px;
+																				margin-right: 55px;
+																				margin-top: 35px;
+																				padding-bottom: 35px;
+																				}
+
+																				.rs{
+																				  font-size: 20px;
+																				  margin-top: 15px;
+																				  margin-left: 15px;
+																				  margin-right: 15px;
+																				  line-height: 21px;
+																				}
+
+																				.duo {
+																				 padding-top: 25px;
+																				}
+																				.duo2 {
+																				 padding-top: 25px;
+																				 margin-bottom: 35px
+																				}
+
+		.contacto img{
+		  width: 50px;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		.contacto p{
+		  
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		button{
+		  margin: 10px 0 40px 0;
+		}
+
+
+		.row-fluid{
+			padding: 0px !important;
+			margin-left: -15px;
+			margin-right: -15px;
+			}
+				.website{
+				 font-size: 18px;
+			}
+			
+			  .telephone{
+			   font-size: 18px;
+			}
+			
+				.address{
+				 font-size: 18px;
+			}
+
+			.tuto{
+	padding:35px;
+}
+.trinidad {
+    background-color: #0E0C3F;
+    position: absolute;
+    width: -webkit-fill-available;
+    padding: 35px 0px;
+}
+			.itrinidad{
+				padding-top: 15px;
+			}
+
+			
+			.btn-busswe{
+				padding-left: 16px;
+				padding-right: 16px;
+			}
+			
+						.btn-bus{
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+
+			.marca{
+				font-size: 12px;
+				margin-right: 25px;
+				margin-left: 25px;
+				
+				color: white;
+			}
+			
+			.curri{
+			padding-bottom: 35px;
+		}	
+		.curri a:hover{
+			color: white;
+			text-decoration: none;
+		}
+
+		.btn-curri:not(:disabled):not(.disabled) {
+            cursor: pointer;
+		}
+
+		
+		.btn-curri{
+			display: inline-block;
+			font-weight: 400;
+			color: #212529;
+			text-align: center;
+			vertical-align: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			background-color: transparent;
+			border: 1px solid transparent;
+			padding: 0.375rem 0.75rem;
+			font-size: 0.9rem;
+			line-height: 1.6;
+			border-radius: 0.25rem;
+			transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+		}
+
+			.outline-info-curri{
+			color: white;
+			border-color: white;
+		}
+		
+		.status-lab{
+			color: red;
+			margin-top: 25px;
+		}
+		
+	.status-lab p {
+	color: white;
+    border: 1px solid;
+    border-radius: 10%;
+    width: 150px;
+    height: 41px;
+    padding-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+	background: linear-gradient(45deg, black, transparent);
+		}
+		
+			.qr{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+	margin-bottom: 10px;
+		}
+  .paypalme{
+	padding-bottom: 15px;
+		}

@@ -1,0 +1,41 @@
+<?php
+
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
+
+class CreateWorkExperiencesTable extends Migration
+{
+	
+	public $tableName = 'work_experiences';
+	
+    /**
+     * Run the migrations.
+     *
+     * @return void
+     */
+    public function up()
+    {
+        Schema::create('work_experiences', function (Blueprint $table) {
+			$table->engine = 'InnoDB';
+            $table->id();
+			$table->foreignId('resume_id')->nullable()->constrained()->onDelete('set null')->on('resumes');
+			$table->string('company', 64);
+			$table->date('inicio')->nullable()->default(null);
+			$table->date('fin')->nullable()->default(null);
+			$table->string('actualidad')->nullable()->default(null);
+			
+            $table->timestamps();
+        });
+    }
+
+    /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        Schema::dropIfExists('work_experiences');
+    }
+}
